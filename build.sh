@@ -1,13 +1,6 @@
 #!/bin/bash -x 
 $CC my-hello.c -o my-hello.out
 $CC my-hello.c -o a.out
-which $CC
-which clang 
-which gcc 
-echo "I am in $PWD"
-ls -lrt 
-clang -v 
-gcc -v 
 
 echo "Content of environment variables"
 echo "PATH:$PATH"
@@ -20,3 +13,18 @@ echo "F90:$F90"
 echo "FC:$FC"
 echo "F77:$F77"
 echo "CC:$CC"
+
+echo "Location information"
+which $CC
+which clang 
+which gcc 
+echo "I am in $PWD"
+
+
+echo "Version information"
+clang -v 
+gcc -v 
+
+
+echo "Content of this folder:$PWD"
+ls -lrt 
