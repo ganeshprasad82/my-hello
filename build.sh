@@ -18,11 +18,13 @@ echo "Location information"
 which $CC
 which clang 
 which gcc 
+which flang
 echo "I am in $PWD"
 
 
 echo "Version information"
 clang -v 
+flang -v
 gcc -v 
 
 
