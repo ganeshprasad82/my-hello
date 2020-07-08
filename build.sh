@@ -5,3 +5,4 @@ which $CC
 which clang 
 which gcc 
 echo "I am in $PWD"
+ls -lrt 
