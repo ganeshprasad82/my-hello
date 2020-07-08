@@ -8,6 +8,8 @@ echo "I am in $PWD"
 ls -lrt 
 clang -v 
 gcc -v 
+
+echo "Content of environment variables"
 echo "PATH:$PATH"
 echo "LD_LIBRARY_PATH:$LD_LIBRARY_PATH"
 echo "LIBRARY_PATH:$LIBRARY_PATH"
@@ -17,3 +19,4 @@ echo "CPP_INCLUDE_PATH:$CPP_INCLUDE_PATH"
 echo "F90:$F90"
 echo "FC:$FC"
 echo "F77:$F77"
+echo "CC:$CC"
