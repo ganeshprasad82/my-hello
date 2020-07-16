@@ -34,3 +34,6 @@ ls -lrt
 echo "ganesh debug statements"
 echo "RPATH:$RPATH"
 echo "RUNPATH:$RUNPATH"
+
+icc -v
+which icc
