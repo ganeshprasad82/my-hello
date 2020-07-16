@@ -30,3 +30,7 @@ gcc -v
 
 echo "Content of this folder:$PWD"
 ls -lrt 
+
+echo "ganesh debug statements"
+echo "RPATH:$RPATH"
+echo "RUNPATH:$RUNPATH"
